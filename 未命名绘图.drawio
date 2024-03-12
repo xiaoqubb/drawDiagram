@@ -1,9 +1,68 @@
-<mxfile host="app.diagrams.net" modified="2024-03-12T07:09:31.723Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" version="24.0.5" etag="PUYQM3jCjka_YhCEIDmE" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-12T07:13:43.602Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="NeX48qXCU95pRk19-Mzw" version="24.0.5" type="github">
   <diagram name="第 1 页" id="NecIpgg2a4Co7hd8PUxm">
-    <mxGraphModel>
+    <mxGraphModel dx="1173" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ZYK1Bn7KOKf3UNxCxHX9-1" value="执法人员" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="378" y="160" width="79" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYK1Bn7KOKf3UNxCxHX9-2" value="执法记录仪" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="370" y="262" width="95" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYK1Bn7KOKf3UNxCxHX9-3" value="音频转文字" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="370" y="365" width="95" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYK1Bn7KOKf3UNxCxHX9-4" value="文本清洗与结构化" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="346" y="467" width="143" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYK1Bn7KOKf3UNxCxHX9-5" value="大模型技术平台" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="354" y="569" width="128" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYK1Bn7KOKf3UNxCxHX9-6" value="自动生成询问笔录文书" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="330" y="672" width="175" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYK1Bn7KOKf3UNxCxHX9-7" value="审校与验证" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="370" y="774" width="95" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYK1Bn7KOKf3UNxCxHX9-8" value="最终文书输出" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="362" y="876" width="111" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYK1Bn7KOKf3UNxCxHX9-9" value="使用" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.9901961158303654;entryX=0.5;entryY=0.009803996366613051;rounded=0;" edge="1" parent="1" source="ZYK1Bn7KOKf3UNxCxHX9-1" target="ZYK1Bn7KOKf3UNxCxHX9-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZYK1Bn7KOKf3UNxCxHX9-10" value="录音转换" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.0000001121969784;entryX=0.5;entryY=-0.00980377197265625;rounded=0;" edge="1" parent="1" source="ZYK1Bn7KOKf3UNxCxHX9-2" target="ZYK1Bn7KOKf3UNxCxHX9-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZYK1Bn7KOKf3UNxCxHX9-11" value="处理" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.9803923438577091;entryX=0.5;entryY=2.2439395680147059e-7;rounded=0;" edge="1" parent="1" source="ZYK1Bn7KOKf3UNxCxHX9-3" target="ZYK1Bn7KOKf3UNxCxHX9-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZYK1Bn7KOKf3UNxCxHX9-12" value="生成文书" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.9901963402243221;entryX=0.49609375;entryY=0.009804220760569853;rounded=0;" edge="1" parent="1" source="ZYK1Bn7KOKf3UNxCxHX9-4" target="ZYK1Bn7KOKf3UNxCxHX9-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZYK1Bn7KOKf3UNxCxHX9-13" value="输出" style="curved=1;startArrow=none;endArrow=block;exitX=0.49609375;exitY=1.0000003365909351;entryX=0.5;entryY=-0.009803547578699449;rounded=0;" edge="1" parent="1" source="ZYK1Bn7KOKf3UNxCxHX9-5" target="ZYK1Bn7KOKf3UNxCxHX9-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZYK1Bn7KOKf3UNxCxHX9-14" value="审校" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.9803925682516659;entryX=0.5;entryY=4.4878791360294117e-7;rounded=0;" edge="1" parent="1" source="ZYK1Bn7KOKf3UNxCxHX9-6" target="ZYK1Bn7KOKf3UNxCxHX9-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZYK1Bn7KOKf3UNxCxHX9-15" value="完成" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.990196564618279;entryX=0.5;entryY=0.009804445154526654;rounded=0;" edge="1" parent="1" source="ZYK1Bn7KOKf3UNxCxHX9-7" target="ZYK1Bn7KOKf3UNxCxHX9-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
